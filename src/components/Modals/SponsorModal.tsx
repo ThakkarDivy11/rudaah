@@ -34,9 +34,25 @@ export default function SponsorModal({ isOpen, onClose }: SponsorModalProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const whatsappMessage = `🤝 *Sponsorship Inquiry - Rudaah Garba 2026*
+
+🏢 *Company Name:* ${formData.companyName}
+👤 *Contact Person:* ${formData.contactPerson}
+📱 *Phone:* ${formData.phone}
+📧 *Email:* ${formData.email}
+🏆 *Sponsorship Tier:* ${tier}
+
+💬 *Additional Note:*
+${formData.message || "N/A"}`;
+
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    window.open(`https://wa.me/919104819600?text=${encodedMessage}`, "_blank");
+
     setSubmitted(true);
     setTimeout(() => {
       setSubmitted(false);
+      setFormData({ companyName: "", contactPerson: "", phone: "", email: "", message: "" });
       onClose();
     }, 2500);
   };
