@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Send, MapPin, Phone, Mail, Heart, Code2 } from "lucide-react";
-import { FaInstagram, FaFacebook, FaYoutube, FaWhatsapp, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -134,9 +134,7 @@ export default function Footer() {
             </form>
 
             <div className="flex items-center gap-3 pt-2">
-              <a href="#" className="text-[#C7B9A7] hover:text-[#F2D18B] transition-colors"><FaInstagram className="w-4 h-4" /></a>
-              <a href="#" className="text-[#C7B9A7] hover:text-[#F2D18B] transition-colors"><FaFacebook className="w-4 h-4" /></a>
-              <a href="#" className="text-[#C7B9A7] hover:text-[#F2D18B] transition-colors"><FaYoutube className="w-4 h-4" /></a>
+              <a href="https://www.instagram.com/rudaahgarba" target="_blank" rel="noopener noreferrer" className="text-[#C7B9A7] hover:text-[#F2D18B] transition-colors"><FaInstagram className="w-4 h-4" /></a>
               <a href="https://wa.me/919104819600" className="text-[#C7B9A7] hover:text-[#F2D18B] transition-colors"><FaWhatsapp className="w-4 h-4" /></a>
             </div>
           </div>

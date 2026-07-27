@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Send, CheckCircle2, MessageSquare } from "lucide-react";
-import { FaInstagram, FaFacebook, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
@@ -17,8 +17,25 @@ export default function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const whatsappMessage = `🙏 *New Inquiry - Rudaah Garba 2026*
+
+👤 *Name:* ${formData.name}
+📱 *Phone:* ${formData.phone}
+📧 *Email:* ${formData.email}
+📋 *Category:* ${formData.subject}
+
+💬 *Message:*
+${formData.message}`;
+
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    window.open(`https://wa.me/919104819600?text=${encodedMessage}`, "_blank");
+
     setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 4000);
+    setTimeout(() => {
+      setSubmitted(false);
+      setFormData({ name: "", phone: "", email: "", subject: "Pass Booking Inquiry", message: "" });
+    }, 4000);
   };
 
   return (
@@ -90,9 +107,7 @@ export default function ContactSection() {
               </span>
               <div className="flex items-center gap-3">
                 {[
-                  { icon: FaInstagram, href: "#", color: "hover:text-pink-600" },
-                  { icon: FaFacebook, href: "#", color: "hover:text-blue-600" },
-                  { icon: FaYoutube, href: "#", color: "hover:text-red-600" },
+                  { icon: FaInstagram, href: "https://www.instagram.com/rudaahgarba", color: "hover:text-pink-600" },
                   { icon: FaWhatsapp, href: "https://wa.me/919104819600", color: "hover:text-green-600" },
                 ].map((s, idx) => {
                   const Icon = s.icon;
