@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Send, MapPin, Phone, Mail, Heart } from "lucide-react";
-import { FaInstagram, FaFacebook, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { Send, MapPin, Phone, Mail, Heart, Code2 } from "lucide-react";
+import { FaInstagram, FaFacebook, FaYoutube, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -143,11 +143,29 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#C7B9A7] font-light">
-          <p>© 2026 Rudaah Garba. All Rights Reserved. Produced by Raghuvanshi Events × Rashmi Raj Events.</p>
-          <p className="flex items-center gap-1">
-            Crafted with <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" /> for Navratri Celebrations
-          </p>
+        <div className="pt-8 flex flex-col items-center gap-4 text-xs text-[#C7B9A7] font-light">
+          <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-3">
+            <p>© 2026 Rudaah Garba. All Rights Reserved. Produced by Raghuvanshi Events × Rashmi Raj Events.</p>
+            <p className="flex items-center gap-1">
+              Crafted with <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" /> for Navratri Celebrations
+            </p>
+          </div>
+
+          <div className="w-full border-t border-[#4A231A] pt-4 flex items-center justify-center gap-2 text-[#9A8A7A]">
+            <Code2 className="w-3.5 h-3.5 text-[#D6B26E]" />
+            <span>
+              Developed by{" "}
+              <a
+                href="https://www.linkedin.com/in/divy-thakkar-a89859227"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#F2D18B] hover:text-[#D6B26E] transition-colors font-semibold inline-flex items-center gap-1"
+              >
+                Divy Thakkar
+                <FaLinkedin className="w-3.5 h-3.5" />
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </footer>
