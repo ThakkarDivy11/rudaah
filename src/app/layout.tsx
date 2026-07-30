@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Cormorant_Garamond, Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -64,6 +65,7 @@ export default function RootLayout({
     >
       <body className="bg-paper-texture text-[#2A1613] font-poppins selection:bg-[#7A1B0C]/20 selection:text-[#7A1B0C] antialiased overflow-x-hidden min-h-screen">
         {children}
+        <Analytics />
       </body>
     </html>
   );

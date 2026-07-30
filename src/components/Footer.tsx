@@ -95,7 +95,14 @@ export default function Footer() {
             <ul className="space-y-3 text-xs text-[#C7B9A7] font-medium">
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#D6B26E] shrink-0 mt-0.5" />
-                <span>SG Highway, near Shreekunj Greens, Ahmedabad 382481</span>
+                <a
+                  href="https://www.google.com/maps/place/RUDAAH+GARBA/@23.1304169,72.5331118,17.85z/data=!4m14!1m7!3m6!1s0x395e8363b992dea9:0x82990160b98ef7de!2sShreekunj+Greens!8m2!3d23.1271755!4d72.5329255!16s%2Fg%2F11rjq75f00!3m5!1s0x395e830076268ced:0x4dd172a1761d8429!8m2!3d23.1306666!4d72.5336527!16s%2Fg%2F11zd4j4y9s"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#F2D18B] transition-colors"
+                >
+                  SG Highway, near Shreekunj Greens, Ahmedabad 382481
+                </a>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#D6B26E] shrink-0" />

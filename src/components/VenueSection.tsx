@@ -87,7 +87,7 @@ export default function VenueSection() {
             </div>
 
             <a
-              href="https://maps.google.com/?q=Sarkhej+Gandhinagar+Hwy+Ahmedabad"
+              href="https://www.google.com/maps/place/RUDAAH+GARBA/@23.1304169,72.5331118,17.85z/data=!4m14!1m7!3m6!1s0x395e8363b992dea9:0x82990160b98ef7de!2sShreekunj+Greens!8m2!3d23.1271755!4d72.5329255!16s%2Fg%2F11rjq75f00!3m5!1s0x395e830076268ced:0x4dd172a1761d8429!8m2!3d23.1306666!4d72.5336527!16s%2Fg%2F11zd4j4y9s"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3.5 rounded-xl bg-[#7A1B0C] text-[#F7EFE4] font-bold text-sm flex items-center justify-center gap-2 shadow-md hover:bg-[#5C1408] transition-all block text-center"
@@ -107,7 +107,7 @@ export default function VenueSection() {
           >
             <iframe
               title="Rudaah Garba Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.697926127181!2d72.5028945759165!3d23.034876715858066!2m3!1f0!f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b30c451e039%3A0x8e5db2339798e4e7!2sSarkhej%20-%20Gandhinagar%20Hwy%2C%20Ahmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.7547039912384!2d72.53107777591901!3d23.130671475854817!2m3!1f0!f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e830076268ced%3A0x4dd172a1761d8429!2sRUDAAH%20GARBA!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}

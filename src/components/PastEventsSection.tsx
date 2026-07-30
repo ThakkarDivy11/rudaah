@@ -20,7 +20,7 @@ export default function PastEventsSection() {
       title: "Raataldi 2025",
       subtitle: "Cultural Heritage & Garba Raas",
       year: "2025",
-      footfall: "70,000+ Attendees",
+      footfall: "100,000+ Attendees",
       image: "/images/raataldi-legacy.jpg",
       description:
         "An authentic cultural celebration celebrating traditional Gujarati Raas with live dhol beats, vibrant food markets, and electric festive energy.",

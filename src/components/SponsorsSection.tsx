@@ -160,12 +160,13 @@ export default function SponsorsSection({ onOpenSponsorModal }: SponsorsSectionP
             </button>
 
             <a
-              href="/Rudaah Garba 05 final.pdf"
-              download
+              href="/sponsorship-deck"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto px-6 py-4 rounded-full bg-[#5C1408] border border-[#F2D18B]/50 text-[#F7EFE4] font-semibold text-sm flex items-center justify-center gap-2 hover:bg-[#4A1006] transition-colors"
             >
               <Download className="w-4 h-4 text-[#F2D18B]" />
-              <span>Download PDF Deck</span>
+              <span>View PDF Deck</span>
             </a>
           </div>
         </motion.div>

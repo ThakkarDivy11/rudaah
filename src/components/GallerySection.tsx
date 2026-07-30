@@ -12,41 +12,49 @@ export default function GallerySection() {
 
   const galleryItems = [
     {
+      id: 1,
       src: "/images/extracted_img_23.jpg",
       alt: "Royal Stage & Light Architecture",
       category: "stage",
     },
     {
+      id: 2,
       src: "/images/extracted_img_14.jpg",
       alt: "Night Garba Raas Energy",
       category: "raas",
     },
     {
+      id: 3,
       src: "/images/extracted_img_24.jpg",
       alt: "Crowd Celebration & Confetti",
       category: "atmosphere",
     },
     {
+      id: 4,
       src: "/images/extracted_img_28.jpg",
       alt: "Traditional Gujarati Dhol & Orchestra",
       category: "raas",
     },
     {
+      id: 5,
       src: "/images/extracted_img_26.jpg",
       alt: "Grand Arena Light Display",
       category: "stage",
     },
     {
+      id: 6,
       src: "/images/extracted_img_21.jpg",
       alt: "Celebrity Performance Night",
       category: "stage",
     },
     {
+      id: 7,
       src: "/images/extracted_img_18.jpg",
       alt: "Festive Joy & Memories",
       category: "atmosphere",
     },
     {
+      id: 8,
       src: "/images/extracted_img_19.jpg",
       alt: "Cultural Costumes & Attire",
       category: "raas",
@@ -71,10 +79,10 @@ export default function GallerySection() {
   };
 
   return (
-    <section id="gallery" className="py-24 bg-paper-texture relative">
+    <section id="gallery" className="py-24 bg-paper-texture relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
-        <div className="text-center max-w-3xl mx-auto mb-12 space-y-3">
+        <div className="text-center max-w-3xl mx-auto mb-10 space-y-3">
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -107,7 +115,7 @@ export default function GallerySection() {
         </div>
 
         {/* Category Tabs */}
-        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-12">
+        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-10 pb-6 border-b border-[#7A1B0C]/15">
           {[
             { id: "all", label: "All Photos" },
             { id: "stage", label: "Stage & Lighting" },
@@ -128,11 +136,11 @@ export default function GallerySection() {
           ))}
         </div>
 
-        {/* Gallery Masonry Grid */}
+        {/* Standard Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {filteredItems.map((item, idx) => (
             <motion.div
-              key={idx}
+              key={item.id}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
