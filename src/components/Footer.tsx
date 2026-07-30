@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Send, MapPin, Phone, Mail, Heart, Code2 } from "lucide-react";
+import { Send, MapPin, Phone, Mail, Code2 } from "lucide-react";
 import { FaInstagram, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
@@ -149,11 +149,8 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col items-center gap-4 text-xs text-[#C7B9A7] font-light">
-          <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="w-full text-center">
             <p>© 2026 Rudaah Garba. All Rights Reserved. Produced by Raghuvanshi Events × Rashmi Raj Events.</p>
-            <p className="flex items-center gap-1">
-              Crafted with <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" /> for Navratri Celebrations
-            </p>
           </div>
 
           <div className="w-full border-t border-[#4A231A] pt-4 flex items-center justify-center gap-2 text-[#9A8A7A]">
