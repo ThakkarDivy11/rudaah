@@ -51,7 +51,7 @@ export default function AboutSection() {
             <div className="relative rounded-3xl overflow-hidden border-2 border-[#7A1B0C]/30 shadow-xl aspect-[4/3] sm:aspect-[16/11]">
               <Image
                 src="/images/extracted_img_14.jpg"
-                alt="About Rudaah Garba"
+                alt="Rudaah Garba 2026 Ahmedabad Panch Tatva Celebration"
                 fill
                 className="object-cover object-center"
               />
