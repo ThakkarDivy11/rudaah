@@ -4,7 +4,7 @@ export const SITE_CONFIG = {
   name: "Rudaah Garba 2026",
   legalName: "Rudaah Garba",
   tagline: "Where Nature Becomes Celebration",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://rudaahgarba.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.rudaah.com",
   defaultTitle: "Rudaah Garba 2026 | Top Navratri & Garba in Ahmedabad",
   titleTemplate: "%s | Rudaah Garba 2026",
   defaultDescription:
