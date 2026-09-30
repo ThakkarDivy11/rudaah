@@ -3,12 +3,12 @@
 export const SITE_CONFIG = {
   name: "Rudaah Garba 2026",
   legalName: "Rudaah Garba",
-  tagline: "Where Nature Becomes Celebration",
+  tagline: "An Architectural Vision in Nature",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.rudaah.com",
   defaultTitle: "Rudaah Garba 2026 | Top Navratri & Garba in Ahmedabad",
   titleTemplate: "%s | Rudaah Garba 2026",
   defaultDescription:
-    "Experience Rudaah Garba 2026 on SG Highway, Ahmedabad. Join Gujarat's premier Navratri & Garba celebration featuring 10 cultural nights, live music, and folk raas.",
+    "Experience Rudaah Garba 2026 on SG Highway, Ahmedabad — The Forest of Sacred Energies. Join Gujarat's premier Navratri celebration featuring 9 cultural nights (11th – 19th October), live music, and folk raas.",
   locale: "en_IN",
   ogImage: {
     url: "/images/rudaah-logo.png",
@@ -30,7 +30,7 @@ export const SITE_CONFIG = {
   event: {
     name: "Rudaah Garba 2026",
     startDate: "2026-10-11T19:30:00+05:30",
-    endDate: "2026-10-20T23:59:59+05:30",
+    endDate: "2026-10-19T23:59:59+05:30",
     venueName: "Rudaah Garba Ground",
     address: {
       street: "Sarkhej - Gandhinagar Hwy, Near Shreekunj Greens, Rudaah Garba Arena",

@@ -47,7 +47,7 @@ const faqs = [
   {
     question: "Is Rudaah Garba considered a premium Garba experience in Ahmedabad?",
     answer:
-      "Yes. Rudaah Garba 2026 is designed as a luxury cultural celebration inspired by the Five Elements of Nature (Panch Tatva). Jointly organized by Raghuvanshi Events and Rashmi Raj Events, it features royal hospitality, VIP amenities, a 3,000+ car parking zone, and premier acoustic sound setups.",
+      "Yes. Rudaah Garba 2026 is designed as an avant-garde cultural celebration themed around 'The Forest of Sacred Energies: An Architectural Vision in Nature' curated by Niche by Kamna × Niche Experience. Jointly organized by Raghuvanshi Events and Rashmi Raj Events, it features bespoke canopy installations, an architectural grand foyer, curated pavilions, royal hospitality, VIP amenities, a 3,000+ car parking zone, and premier acoustic sound setups.",
   },
   {
     question: "What are the dress code requirements for best Garba nights in Ahmedabad?",
@@ -101,11 +101,11 @@ export default function BestGarbaPage() {
                 Rudaah Garba 2026: Luxury Cultural Celebration
               </h2>
               <p className="font-poppins text-sm text-[#2A1613] leading-relaxed">
-                Positioned on SG Highway near Shreekunj Greens, Rudaah Garba brings together 10 nights of traditional Gujarati folk melodies, artist orchestras, expansive lawn dancing, and VIP lounge hospitality.
+                Positioned on SG Highway near Shreekunj Greens, Rudaah Garba brings together 9 nights of traditional Gujarati folk melodies, artist orchestras, expansive lawn dancing, and VIP lounge hospitality.
               </p>
               <div className="flex flex-wrap gap-3 text-xs font-semibold text-[#7A1B0C] pt-2">
                 <span className="flex items-center gap-1.5 bg-[#F4EDE2] px-3 py-1.5 rounded-lg border border-[#7A1B0C]/20">
-                  <Calendar className="w-3.5 h-3.5 text-[#8B6914]" /> 11th–20th Oct 2026
+                  <Calendar className="w-3.5 h-3.5 text-[#8B6914]" /> 11th–19th Oct 2026
                 </span>
                 <span className="flex items-center gap-1.5 bg-[#F4EDE2] px-3 py-1.5 rounded-lg border border-[#7A1B0C]/20">
                   <MapPin className="w-3.5 h-3.5 text-[#8B6914]" /> Near Shreekunj Greens, SG Highway
@@ -116,7 +116,7 @@ export default function BestGarbaPage() {
                   href="/#about"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#7A1B0C] text-[#F7EFE4] text-xs font-bold hover:bg-[#5C1408] transition-colors shadow-sm"
                 >
-                  <span>Explore Rudaah Panch Tatva Theme</span>
+                  <span>Explore The Forest of Sacred Energies</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </div>
@@ -196,7 +196,7 @@ export default function BestGarbaPage() {
                 </h3>
               </div>
               <p className="text-xs text-[#2A1613] leading-relaxed">
-                From thematic temple architecture and Panch Tatva decor to royal VIP lounges and hygienic gourmet dining courts, ambiance sets the premier celebrations apart.
+                From immersive forest-inspired architecture, tree hanging décor, and sacred installations to royal VIP lounges and hygienic gourmet dining courts, ambiance sets the premier celebrations apart.
               </p>
             </div>
           </div>
@@ -212,7 +212,7 @@ export default function BestGarbaPage() {
             Rudaah Garba 2026: An Exemplary Cultural Choice
           </h2>
           <p className="font-poppins text-base text-[#2A1613]/90">
-            Produced by Raghuvanshi Events and Rashmi Raj Events—veterans with extensive experience in premier Gujarat events—Rudaah Garba 2026 on SG Highway has been thoughtfully conceptualized around the Panch Tatva (Earth, Water, Fire, Air, Space). Revelers can expect curated musical evenings, expansive ground arrangements, 3,000+ car parking slots, and strict adherence to cultural values across all 10 nights from October 11 to October 20, 2026.
+            Produced by Raghuvanshi Events and Rashmi Raj Events—veterans with extensive experience in premier Gujarat events—Rudaah Garba 2026 on SG Highway has been thoughtfully conceptualized around &lsquo;The Forest of Sacred Energies: An Architectural Vision in Nature&rsquo; curated by Niche by Kamna × Niche Experience. Featuring bespoke canopy installations, a grand foyer, the central shrine, curated pavilions, and bespoke lightscapes, revelers can expect curated musical evenings, expansive ground arrangements, 3,000+ car parking slots, and strict adherence to cultural values across all 9 nights from October 11 to October 19, 2026.
           </p>
         </section>
 

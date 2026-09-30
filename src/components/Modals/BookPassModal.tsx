@@ -19,14 +19,10 @@ export default function BookPassModal({ isOpen, onClose, defaultPass = "VIP Pass
   if (!isOpen) return null;
 
   const passes = [
-    { name: "General Single Night Pass", price: 499 },
-    { name: "General 10-Night Season Pass", price: 2999 },
-    { name: "Couple Season Pass", price: 4999 },
-    { name: "VIP Season Pass", price: 7999 },
-    { name: "Family Group Pass (4 Pax)", price: 9999 },
+    { name: "Early Bird Pass", price: 0 },
   ];
 
-  const currentPass = passes.find((p) => p.name === selectedPass) || passes[3];
+  const currentPass = passes[0];
   const totalPrice = currentPass.price * quantity;
 
   const handleSubmit = (e: React.FormEvent) => {

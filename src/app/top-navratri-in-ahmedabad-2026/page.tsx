@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "When does Navratri 2026 take place in Ahmedabad?",
     answer:
-      "Navratri 2026 begins on October 11, 2026, and culminates with Dussehra celebrations. Key events like Rudaah Garba 2026 run for 10 consecutive nights from October 11 through October 20, 2026.",
+      "Navratri 2026 begins on October 11, 2026, and culminates with Dussehra celebrations. Key events like Rudaah Garba 2026 run for 9 consecutive nights from October 11 through October 19, 2026.",
   },
   {
     question: "What makes SG Highway such a popular hub for Navratri events?",
@@ -61,7 +61,7 @@ const faqs = [
   {
     question: "How does Rudaah Garba 2026 fit into Ahmedabad's Navratri landscape?",
     answer:
-      "Rudaah Garba 2026 is an open-air cultural celebration organized jointly by Raghuvanshi Events and Rashmi Raj Events on SG Highway, Near Shreekunj Greens. The event centers around the Five Elements of Nature (Panch Tatva) with authentic folk music, premium guest amenities, and strict cultural decorum.",
+      "Rudaah Garba 2026 is an open-air cultural celebration organized jointly by Raghuvanshi Events and Rashmi Raj Events on SG Highway, Near Shreekunj Greens. The event centers around 'The Forest of Sacred Energies: An Architectural Vision in Nature' curated by Niche by Kamna × Niche Experience, featuring living ecosystems, high design, authentic folk music, premium guest amenities, and strict cultural decorum.",
   },
 ];
 
@@ -97,14 +97,14 @@ export default function TopNavratriPage() {
                 Featured Cultural Celebration
               </span>
               <h2 className="font-playfair text-2xl sm:text-3xl font-bold text-[#7A1B0C]">
-                Rudaah Garba 2026: The Panch Tatva Experience
+                Rudaah Garba 2026: The Forest of Sacred Energies
               </h2>
               <p className="font-poppins text-sm text-[#2A1613] leading-relaxed">
-                Jointly hosted by Raghuvanshi Events and Rashmi Raj Events, Rudaah Garba unites thousands of traditional revelers across 10 nights (11th – 20th October 2026) on SG Highway, near Shreekunj Greens.
+                Jointly hosted by Raghuvanshi Events and Rashmi Raj Events, Rudaah Garba unites thousands of traditional revelers across 9 nights (11th – 19th October 2026) on SG Highway, near Shreekunj Greens.
               </p>
               <div className="flex flex-wrap gap-4 text-xs font-semibold text-[#7A1B0C] pt-2">
                 <span className="flex items-center gap-1.5 bg-[#F4EDE2] px-3 py-1.5 rounded-lg border border-[#7A1B0C]/20">
-                  <Calendar className="w-3.5 h-3.5 text-[#8B6914]" /> 11th–20th Oct 2026
+                  <Calendar className="w-3.5 h-3.5 text-[#8B6914]" /> 11th–19th Oct 2026
                 </span>
                 <span className="flex items-center gap-1.5 bg-[#F4EDE2] px-3 py-1.5 rounded-lg border border-[#7A1B0C]/20">
                   <MapPin className="w-3.5 h-3.5 text-[#8B6914]" /> SG Highway, Ahmedabad
@@ -199,7 +199,7 @@ export default function TopNavratriPage() {
             </li>
             <li className="p-4 rounded-xl bg-[#F4EDE2] border border-[#7A1B0C]/15">
               <strong className="text-[#7A1B0C] font-semibold block text-base mb-1">3. Thematic Open-Air Arenas (SG Highway):</strong>
-              Large-scale grounds featuring artistic conceptual designs—such as Rudaah Garba&apos;s Panch Tatva theme—with expansive dancing rings, premium sound engineering, royal decor, and high-capacity amenities.
+              Large-scale grounds featuring artistic conceptual designs—such as Rudaah Garba&apos;s &lsquo;The Forest of Sacred Energies: An Architectural Vision in Nature&rsquo; curated by Niche by Kamna × Niche Experience—with expansive dancing rings, bespoke canopy installations, curated pavilions, premium sound engineering, and high-capacity amenities.
             </li>
           </ul>
 
@@ -207,7 +207,7 @@ export default function TopNavratriPage() {
             Important Things to Consider Before Choosing an Event
           </h2>
           <p className="font-poppins text-base text-[#2A1613]/90">
-            To ensure your 10 nights are memorable and stress-free, evaluate these practical details:
+            To ensure your 9 nights are memorable and stress-free, evaluate these practical details:
           </p>
           <ol className="list-decimal pl-5 space-y-2 font-poppins text-sm text-[#2A1613]">
             <li><strong>Flooring & Ground Care:</strong> Hours of continuous spinning require even, cushioned ground to prevent ankle fatigue. Look for natural turf or padded carpeting.</li>

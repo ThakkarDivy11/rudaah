@@ -11,7 +11,7 @@ export default function FAQSection() {
     {
       question: "What are the timings for Rudaah Garba 2026?",
       answer:
-        "Gates open daily at 7:30 PM. The Garba Raas and live orchestra performances commence at 8:30 PM and continue until midnight across all 10 nights.",
+        "Gates open daily at 7:30 PM. The Garba Raas and live orchestra performances commence at 8:30 PM and continue until midnight across all 9 nights (11th – 19th October 2026).",
     },
     {
       question: "Is traditional Gujarati attire mandatory for entry?",
@@ -21,7 +21,7 @@ export default function FAQSection() {
     {
       question: "How do I receive my physical pass or digital QR ticket?",
       answer:
-        "Upon online booking, an instant digital QR ticket is sent to your WhatsApp and email. You can exchange it for your physical wristband at our ground counter or present the digital QR code at entry.",
+        "Upon online booking via FacePass, an instant digital QR ticket is sent to your account and email. You can present your digital pass or utilize contactless face-based entry directly at the gates.",
     },
     {
       question: "Is parking available at the venue?",

@@ -144,7 +144,7 @@ export default function SeoPageLayout({ breadcrumbs, children }: SeoPageLayoutPr
               Experience Rudaah Garba 2026 on SG Highway
             </h3>
             <p className="text-xs sm:text-sm text-[#2A1613]">
-              Organized by Raghuvanshi Events × Rashmi Raj Events • 10 Grand Nights of Panch Tatva Raas
+              Organized by Raghuvanshi Events × Rashmi Raj Events • 9 Grand Nights (11th – 19th Oct 2026) — The Forest of Sacred Energies
             </p>
           </div>
 

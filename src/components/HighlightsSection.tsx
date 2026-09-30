@@ -15,15 +15,15 @@ import {
 export default function HighlightsSection() {
   const highlights = [
     {
-      title: "10 Nights",
-      subtitle: "Non-Stop Celebration",
-      description: "Ten glorious nights filled with traditional Garba, Raas, and vibrant energy under the stars.",
+      title: "9 Nights",
+      subtitle: "11th – 19th October 2026",
+      description: "Nine glorious festive nights filled with traditional Garba, Raas, and vibrant high-design energy under the stars.",
       icon: CalendarDays,
     },
     {
-      title: "120K+ Visitors",
-      subtitle: "Grand Footfall",
-      description: "Connecting thousands of Garba enthusiasts and families from across Gujarat and India.",
+      title: "120K+",
+      subtitle: "Expected Footfall",
+      description: "Welcoming over 120,000 expected visitors, families, and Garba enthusiasts from across Gujarat and India.",
       icon: Users,
     },
     {

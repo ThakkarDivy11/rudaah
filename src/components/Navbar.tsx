@@ -29,11 +29,10 @@ export default function Navbar({ onOpenBookModal }: NavbarProps) {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
-    { name: "Organizers", href: "#organizers" },
     { name: "Legacy", href: "#legacy" },
     { name: "Highlights", href: "#highlights" },
-    { name: "Gallery", href: "#gallery" },
-    { name: "Sponsors", href: "#sponsors" },
+    { name: "Partners", href: "#partners" },
+    { name: "Passes", href: "#passes" },
     { name: "Venue", href: "#venue" },
     { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },
@@ -70,47 +69,74 @@ export default function Navbar({ onOpenBookModal }: NavbarProps) {
         </Link>
 
         {/* Desktop Navigation Links */}
-        <nav className="hidden lg:flex items-center gap-6">
-          {navLinks.map((link) => (
+        <nav className="hidden xl:flex items-center gap-3 2xl:gap-5 mx-auto">
+          {navLinks.filter((l) => l.name !== "Contact").map((link) => (
             <Link
               key={link.name}
               href={link.href}
-              className="text-xs font-bold text-[#7A1B0C] hover:text-[#B8860B] transition-colors uppercase tracking-wider"
+              className="text-xs font-bold text-[#7A1B0C] hover:text-[#B8860B] transition-colors uppercase tracking-wider whitespace-nowrap"
             >
               {link.name}
             </Link>
           ))}
         </nav>
 
-        {/* Desktop CTA */}
-        <div className="hidden xl:flex items-center gap-4">
+        {/* Desktop CTA (Pushed comfortably to the right) */}
+        <div className="hidden xl:flex items-center gap-3 ml-auto pl-6 shrink-0">
+          <a
+            href="https://facepassevents.com/events/rudaah-garba-99847b3c7e77478eb1d294cec8956a29"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2.5 rounded-full bg-[#7A1B0C] text-[#F7EFE4] font-bold text-xs flex items-center gap-2 shadow-md hover:bg-[#5C1408] transition-all whitespace-nowrap"
+          >
+            <div className="relative w-4 h-4 rounded overflow-hidden shrink-0 bg-white/20 p-0.5">
+              <Image
+                src="/images/facepass-logo.webp"
+                alt="FacePass"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <span>BOOK PASS</span>
+          </a>
+
           <Link
             href="#contact"
-            className="relative group overflow-hidden rounded-full p-[1px] font-semibold text-sm transition-transform active:scale-95 shadow-md"
+            className="relative group overflow-hidden rounded-full p-[1px] font-semibold text-xs transition-transform active:scale-95 shadow-xs shrink-0"
           >
             <span className="absolute inset-0 bg-gradient-to-r from-[#7A1B0C] via-[#B8860B] to-[#7A1B0C]" />
-            <span className="relative px-6 py-2.5 rounded-full bg-[#7A1B0C] text-[#F7EFE4] flex items-center gap-2 group-hover:bg-[#5C1408] transition-all">
-              <Sparkles className="w-4 h-4 text-[#F2D18B] group-hover:rotate-12 transition-transform" />
-              <span>Contact Us</span>
+            <span className="relative px-4 py-2 rounded-full bg-[#E8DCCB] text-[#7A1B0C] flex items-center gap-1.5 hover:bg-[#DBCBBA] transition-all whitespace-nowrap">
+              <Sparkles className="w-3.5 h-3.5 text-[#8B6914] group-hover:rotate-12 transition-transform" />
+              <span>Contact</span>
             </span>
           </Link>
         </div>
 
-        {/* Mobile Hamburger Menu Button */}
-        <div className="flex items-center gap-3 xl:hidden">
-          <Link
-            href="#contact"
-            className="sm:hidden px-3.5 py-1.5 rounded-full bg-[#7A1B0C] text-[#F7EFE4] font-semibold text-xs flex items-center gap-1.5 shadow-md"
+        {/* Mobile Header Actions */}
+        <div className="flex items-center gap-2 xl:hidden">
+          <a
+            href="https://facepassevents.com/events/rudaah-garba-99847b3c7e77478eb1d294cec8956a29"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3.5 py-1.5 rounded-full bg-[#7A1B0C] text-[#F7EFE4] font-bold text-xs flex items-center gap-1.5 shadow-sm"
           >
-            <span>Contact</span>
-          </Link>
+            <div className="relative w-3.5 h-3.5 rounded overflow-hidden shrink-0 bg-white/20 p-0.5">
+              <Image
+                src="/images/facepass-logo.webp"
+                alt="FacePass"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <span>Book Pass</span>
+          </a>
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="p-2 rounded-lg bg-[#E8DCCB] border border-[#7A1B0C]/30 text-[#7A1B0C] hover:bg-[#DBCBBA] transition-colors"
             aria-label="Toggle Menu"
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
         </div>
       </div>
@@ -163,16 +189,23 @@ export default function Navbar({ onOpenBookModal }: NavbarProps) {
               </div>
 
               <div className="pt-4 border-t border-[#4A231A]/60 flex flex-col gap-3">
-                <button
-                  onClick={() => {
-                    setMobileMenuOpen(false);
-                    onOpenBookModal();
-                  }}
+                <a
+                  href="https://facepassevents.com/events/rudaah-garba-99847b3c7e77478eb1d294cec8956a29"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMobileMenuOpen(false)}
                   className="w-full py-3 rounded-xl bg-gold-gradient text-[#130B0A] font-bold text-sm flex items-center justify-center gap-2 shadow-lg active:scale-98 transition-transform"
                 >
-                  <Ticket className="w-4 h-4" />
-                  <span>Book Event Pass</span>
-                </button>
+                  <div className="relative w-4 h-4 rounded overflow-hidden shrink-0">
+                    <Image
+                      src="/images/facepass-logo.webp"
+                      alt="FacePass"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <span>BOOK YOUR PASS (FacePass)</span>
+                </a>
               </div>
             </div>
           </motion.div>

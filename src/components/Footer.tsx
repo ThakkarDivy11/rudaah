@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
 
             <p className="font-poppins text-xs text-[#C7B9A7] font-light leading-relaxed">
-              Ahmedabad&apos;s premier Navratri celebration inspired by the Five Elements of Nature (Panch Tatva). Presenting 10 nights of traditional Garba, celebrity artists, and royal hospitality.
+              Ahmedabad&apos;s premier Navratri celebration — The Forest of Sacred Energies (curated by Niche by Kamna × Niche Experience). Presenting 9 nights (11th – 19th October 2026) of traditional Garba, immersive canopy installations, celebrity artists, and royal hospitality.
             </p>
 
             <div className="pt-2 border-t border-[#4A231A] space-y-2">

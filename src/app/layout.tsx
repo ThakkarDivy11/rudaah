@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rudaah Garba 2026 | Top Navratri & Garba in Ahmedabad",
     description:
-      "Experience Rudaah Garba 2026 on SG Highway, Ahmedabad. Celebrate Gujarat's grand Navratri with 10 nights of traditional Garba, folk music, and celebration.",
+      "Experience Rudaah Garba 2026 on SG Highway, Ahmedabad. Celebrate Gujarat's grand Navratri with 9 nights (11th – 19th October) of traditional Garba, folk music, and celebration.",
     type: "website",
     url: SITE_CONFIG.url,
     siteName: SITE_CONFIG.name,

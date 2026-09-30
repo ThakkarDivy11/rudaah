@@ -47,12 +47,12 @@ const faqs = [
   {
     question: "How long does Navratri 2026 last in Ahmedabad?",
     answer:
-      "Navratri is traditionally celebrated over nine auspicious nights, culminating in Dussehra. In Ahmedabad, cultural venues frequently host 10 consecutive nights of festivities. For 2026, events run from October 11 to October 20, 2026.",
+      "Navratri is traditionally celebrated over nine auspicious nights, culminating in Dussehra. For 2026, Rudaah Garba runs for 9 consecutive nights from October 11 to October 19, 2026.",
   },
   {
-    question: "What is the cultural significance of the Panch Tatva theme at Rudaah Garba?",
+    question: "What is the concept behind 'The Forest of Sacred Energies' at Rudaah Garba 2026?",
     answer:
-      "The Panch Tatva represents the Five Great Elements of cosmic nature: Prithvi (Earth), Jal (Water), Agni (Fire), Vayu (Air), and Aakash (Space). Rudaah Garba 2026 harmonizes this ancient Vedic philosophy with folk music, natural landscaping, and devotional Raas.",
+      "Curated by Niche by Kamna × Niche Experience, 'The Forest of Sacred Energies: An Architectural Vision in Nature' introduces an avant-garde approach to traditional celebrations. Reimagined as a sophisticated, living ecosystem where organic elements blend with modern design, the pavilion features The Grand Foyer, The Central Shrine, The Canopy Installations, The Curated Pavilions, and The Bespoke Lightscapes.",
   },
   {
     question: "Can families attend large-scale Garba events on SG Highway?",
@@ -98,14 +98,14 @@ export default function NavratriEventsPage() {
                 Highlighted SG Highway Celebration
               </span>
               <h2 className="font-playfair text-2xl sm:text-3xl font-bold text-[#7A1B0C]">
-                Rudaah Garba 2026: 10 Nights of Nature & Celebration
+                Rudaah Garba 2026: 9 Nights of Nature & Celebration
               </h2>
               <p className="font-poppins text-sm text-[#2A1613] leading-relaxed">
-                Jointly organized by Raghuvanshi Events and Rashmi Raj Events, Rudaah Garba 2026 offers an immersive cultural experience built upon the Five Elements of Nature (Panch Tatva). Located near Shreekunj Greens on SG Highway, the celebration features dedicated valet parking for 3,000+ cars, authentic folk artists, and royal VIP hospitality.
+                Jointly organized by Raghuvanshi Events and Rashmi Raj Events, Rudaah Garba 2026 offers an avant-garde cultural experience centered on &lsquo;The Forest of Sacred Energies: An Architectural Vision in Nature&rsquo; curated by Niche by Kamna × Niche Experience. Located near Shreekunj Greens on SG Highway, the celebration features bespoke canopy installations, curated pavilions, dedicated valet parking for 3,000+ cars, authentic folk artists, and royal VIP hospitality.
               </p>
               <div className="flex flex-wrap gap-3 text-xs font-semibold text-[#7A1B0C] pt-2">
                 <span className="flex items-center gap-1.5 bg-[#F4EDE2] px-3 py-1.5 rounded-lg border border-[#7A1B0C]/20">
-                  <Calendar className="w-3.5 h-3.5 text-[#8B6914]" /> 11th–20th Oct 2026
+                  <Calendar className="w-3.5 h-3.5 text-[#8B6914]" /> 11th–19th Oct 2026
                 </span>
                 <span className="flex items-center gap-1.5 bg-[#F4EDE2] px-3 py-1.5 rounded-lg border border-[#7A1B0C]/20">
                   <MapPin className="w-3.5 h-3.5 text-[#8B6914]" /> SG Highway, Near Shreekunj Greens
@@ -119,12 +119,14 @@ export default function NavratriEventsPage() {
                   <span>Explore Rudaah Garba 2026</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
-                <Link
-                  href="/#contact"
+                <a
+                  href="https://facepassevents.com/events/rudaah-garba-99847b3c7e77478eb1d294cec8956a29"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#F4EDE2] text-[#7A1B0C] text-xs font-bold border border-[#7A1B0C]/30 hover:bg-[#E8DCCB] transition-colors"
                 >
-                  <span>Pass & Stall Inquiries</span>
-                </Link>
+                  <span>Book Passes on FacePass</span>
+                </a>
               </div>
             </div>
 
@@ -160,7 +162,7 @@ export default function NavratriEventsPage() {
                 </h3>
               </div>
               <p className="text-xs sm:text-sm text-[#2A1613] leading-relaxed">
-                Combining grand scale with deep spiritual homage, Rudaah Garba 2026 is themed around the Panch Tatva (Five Elements of Nature). Held near Shreekunj Greens along the SG Highway corridor, it offers natural turf dancing, line-array acoustics, verified 3,000+ vehicle parking, and curated family zones across all 10 nights from October 11–20, 2026.
+                Combining grand scale with deep spiritual homage, Rudaah Garba 2026 is themed around &lsquo;The Forest of Sacred Energies: An Architectural Vision in Nature&rsquo; curated by Niche by Kamna × Niche Experience. Held near Shreekunj Greens along the SG Highway corridor, it offers structural canopy installations, bespoke lightscapes, curated pavilions, natural turf dancing, line-array acoustics, verified 3,000+ vehicle parking, and curated family zones across all 9 nights from October 11–19, 2026.
               </p>
             </div>
 
@@ -234,7 +236,7 @@ export default function NavratriEventsPage() {
           <ul className="list-disc pl-5 space-y-2 font-poppins text-sm text-[#2A1613]">
             <li><strong>Embrace Traditional Attire:</strong> Wearing authentic Gujarati ethnic clothing is not just respect for tradition—it is mandatory for entrance at all premier grounds.</li>
             <li><strong>Stay Near the SG Highway Corridor:</strong> Choosing accommodations near SG Highway ensures easy vehicular access to major party plots, grounds, and return routes without getting stuck in inner-city detours.</li>
-            <li><strong>Hydrate and Pace Yourself:</strong> Ten consecutive nights of dancing require physical stamina. Make use of hygienic refreshment stalls and rest areas provided on the grounds.</li>
+            <li><strong>Hydrate and Pace Yourself:</strong> Nine consecutive nights of dancing require physical stamina. Make use of hygienic refreshment stalls and rest areas provided on the grounds.</li>
           </ul>
         </section>
 

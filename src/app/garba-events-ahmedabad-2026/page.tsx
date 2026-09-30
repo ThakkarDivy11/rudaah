@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "What are the standard timings for Garba events in Ahmedabad 2026?",
     answer:
-      "Most major venues open their entrance gates at 7:30 PM. Live folk orchestra and Raas performances usually begin by 8:30 PM and continue until midnight across all 10 festive nights.",
+      "Most major venues open their entrance gates at 7:30 PM. Live folk orchestra and Raas performances usually begin by 8:30 PM and continue until midnight across all 9 festive nights.",
   },
   {
     question: "How can I inquire about passes for Rudaah Garba 2026?",
@@ -50,9 +50,9 @@ const faqs = [
       "Pass inquiries, corporate bookings, and sponsorship stalls can be arranged directly with the event team via phone (+91 91048 19600 / +91 83202 52095), WhatsApp, or through the contact inquiry form on the official website.",
   },
   {
-    question: "Are daily passes and seasonal 10-night passes available?",
+    question: "Are daily passes and seasonal 9-night passes available?",
     answer:
-      "Yes, attendees commonly have the option to inquire for individual night passes or seasonal full-access season passes for all 10 nights of celebration.",
+      "Yes, attendees commonly have the option to book individual night passes or seasonal full-access season passes for all 9 nights of celebration (11th–19th Oct 2026) directly on FacePass.",
   },
   {
     question: "What items are prohibited inside the Garba ground?",
@@ -98,14 +98,14 @@ export default function GarbaEventsPage() {
                 Highlighted Garba Arena
               </span>
               <h2 className="font-playfair text-2xl sm:text-3xl font-bold text-[#7A1B0C]">
-                Rudaah Garba 2026: 10 Consecutive Festive Nights
+                Rudaah Garba 2026: 9 Consecutive Festive Nights
               </h2>
               <p className="font-poppins text-sm text-[#2A1613] leading-relaxed">
-                Experience royal Garba Raas on SG Highway, near Shreekunj Greens. Featuring 10 nights of traditional music, a 120k+ footfall legacy, VIP seating, and extensive dining areas.
+                Experience royal Garba Raas on SG Highway, near Shreekunj Greens. Featuring 9 nights of traditional music, a 120k+ footfall legacy, VIP seating, and extensive dining areas.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-semibold text-[#7A1B0C] pt-2">
                 <span className="flex items-center gap-1.5 bg-[#F4EDE2] px-3 py-2 rounded-lg border border-[#7A1B0C]/20">
-                  <Calendar className="w-3.5 h-3.5 text-[#8B6914]" /> 11th to 20th October 2026
+                  <Calendar className="w-3.5 h-3.5 text-[#8B6914]" /> 11th to 19th October 2026
                 </span>
                 <span className="flex items-center gap-1.5 bg-[#F4EDE2] px-3 py-2 rounded-lg border border-[#7A1B0C]/20">
                   <Clock className="w-3.5 h-3.5 text-[#8B6914]" /> Gates: 7:30 PM | Raas: 8:30 PM
@@ -114,17 +114,19 @@ export default function GarbaEventsPage() {
                   <MapPin className="w-3.5 h-3.5 text-[#8B6914]" /> SG Highway, Ahmedabad
                 </span>
                 <span className="flex items-center gap-1.5 bg-[#F4EDE2] px-3 py-2 rounded-lg border border-[#7A1B0C]/20">
-                  <Ticket className="w-3.5 h-3.5 text-[#8B6914]" /> Pass Inquiries Available
+                  <Ticket className="w-3.5 h-3.5 text-[#8B6914]" /> FacePass Booking Live
                 </span>
               </div>
               <div className="pt-3 flex flex-wrap gap-3">
-                <Link
-                  href="/#contact"
+                <a
+                  href="https://facepassevents.com/events/rudaah-garba-99847b3c7e77478eb1d294cec8956a29"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#7A1B0C] text-[#F7EFE4] text-xs font-bold hover:bg-[#5C1408] transition-colors shadow-sm"
                 >
-                  <span>Inquire for Passes</span>
+                  <span>Book Passes on FacePass</span>
                   <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
+                </a>
                 <Link
                   href="/#venue"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#F4EDE2] text-[#7A1B0C] text-xs font-bold border border-[#7A1B0C]/30 hover:bg-[#E8DCCB] transition-colors"
@@ -152,7 +154,7 @@ export default function GarbaEventsPage() {
             Navigating Ahmedabad Garba Nights 2026
           </h2>
           <p className="font-poppins text-base text-[#2A1613]/90">
-            Garba nights in Ahmedabad are the crowning jewel of Gujarat&apos;s cultural calendar. Across all 10 nights of Navratri 2026, the city hums with energy as hundreds of thousands of people assemble in open party plots, lawns, and arenas to perform devotional circles honoring the Divine Mother.
+            Garba nights in Ahmedabad are the crowning jewel of Gujarat&apos;s cultural calendar. Across all 9 nights of Navratri 2026 (October 11–19), the city hums with energy as hundreds of thousands of people assemble in open party plots, lawns, and arenas to perform devotional circles honoring the Divine Mother.
           </p>
 
           <h2 className="font-playfair text-2xl sm:text-3xl font-bold text-[#7A1B0C] pt-6">

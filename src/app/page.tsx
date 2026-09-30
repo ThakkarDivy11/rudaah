@@ -8,8 +8,7 @@ import AboutSection from "@/components/AboutSection";
 import OrganizersSection from "@/components/OrganizersSection";
 import PastEventsSection from "@/components/PastEventsSection";
 import HighlightsSection from "@/components/HighlightsSection";
-import GallerySection from "@/components/GallerySection";
-import SponsorsSection from "@/components/SponsorsSection";
+import PassesSection from "@/components/PassesSection";
 import VenueSection from "@/components/VenueSection";
 import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
@@ -34,11 +33,8 @@ export default function Home() {
         onOpenSponsorModal={() => setIsSponsorModalOpen(true)}
       />
 
-      {/* About & Panch Tatva Section */}
+      {/* About & The Forest of Sacred Energies Section */}
       <AboutSection />
-
-      {/* Organizers Section (Raghuvanshi × Rashmi Raj) */}
-      <OrganizersSection />
 
       {/* Dedicated Past Events & Legacy Section */}
       <PastEventsSection />
@@ -47,11 +43,11 @@ export default function Home() {
       <HighlightsSection />
 
 
-      {/* Photo Gallery & Lightbox */}
-      <GallerySection />
+      {/* Official Event Partners Section */}
+      <OrganizersSection />
 
-      {/* Sponsorship & Partners Section */}
-      <SponsorsSection onOpenSponsorModal={() => setIsSponsorModalOpen(true)} />
+      {/* Book Your Pass Section */}
+      <PassesSection />
 
       {/* Venue & Location Section */}
       <VenueSection />
