@@ -15,6 +15,8 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingActions from "@/components/FloatingActions";
 import SponsorModal from "@/components/Modals/SponsorModal";
+import { FaqJsonLd } from "@/components/seo/JsonLd";
+import { HOME_FAQS } from "@/lib/seo";
 
 export default function Home() {
   const [isSponsorModalOpen, setIsSponsorModalOpen] = useState(false);
@@ -63,6 +65,9 @@ export default function Home() {
 
       {/* Floating Widgets */}
       <FloatingActions />
+
+      {/* FAQ Structured Data for Google Rich Results */}
+      <FaqJsonLd faqs={HOME_FAQS} />
 
       {/* Sponsorship Dialog Modal */}
       <SponsorModal

@@ -106,14 +106,14 @@ export default function HeroSection({ onOpenSponsorModal }: HeroSectionProps) {
           </span>
         </motion.div>
 
-        {/* Main Theme Headline */}
+        {/* Main H1 Headline: Target Primary Entity */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="font-playfair text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-[#7A1B0C] leading-[1.1] max-w-4xl mb-3"
+          className="font-playfair text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-[#7A1B0C] leading-[1.12] max-w-4xl mb-3"
         >
-          THE FOREST OF <span className="text-maroon-gradient block sm:inline">SACRED ENERGIES</span>
+          Top Navratri &amp; <span className="text-maroon-gradient block sm:inline">Garba in Ahmedabad 2026</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -123,7 +123,7 @@ export default function HeroSection({ onOpenSponsorModal }: HeroSectionProps) {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="font-cormorant text-lg sm:text-2xl italic tracking-wider text-[#8B6914] font-semibold mb-6"
         >
-          An Architectural Vision in Nature
+          The Forest of Sacred Energies • Premier Mandli Garba on SG Highway
         </motion.p>
 
         {/* Event Meta Badges: 11th - 19th October 2026 */}

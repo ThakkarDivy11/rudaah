@@ -75,7 +75,7 @@ export default function HighlightsSection() {
             viewport={{ once: true }}
             className="font-cormorant text-xl italic text-[#8B6914] font-bold tracking-widest uppercase block"
           >
-            Unmatched Experience
+            BEST MANDLI GARBA IN AHMEDABAD
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -84,7 +84,7 @@ export default function HighlightsSection() {
             transition={{ delay: 0.1 }}
             className="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-[#7A1B0C]"
           >
-            Event <span className="text-maroon-gradient">Highlights</span>
+            Signature Highlights &amp; <span className="text-maroon-gradient">Festival Features</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

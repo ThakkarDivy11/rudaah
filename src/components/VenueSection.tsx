@@ -26,7 +26,7 @@ export default function VenueSection() {
             transition={{ delay: 0.1 }}
             className="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-[#7A1B0C]"
           >
-            Grand Event <span className="text-maroon-gradient">Venue</span>
+            Ahmedabad Garba Venues: <span className="text-maroon-gradient">Where to Experience Navratri</span>
           </motion.h2>
 
           <motion.p
@@ -36,7 +36,7 @@ export default function VenueSection() {
             transition={{ delay: 0.2 }}
             className="font-poppins text-base text-[#2A1613] font-normal"
           >
-            Conveniently situated on SG Highway, offering easy access, expansive grounds, and royal ambiance.
+            Situated at Rudaah Garba Ground on Sarkhej - Gandhinagar (SG) Highway, near Shreekunj Greens. Offering direct connectivity from western Ahmedabad hubs including Satellite, Prahlad Nagar, Bodakdev, Thaltej, Bopal, Sindhu Bhavan Road (SBR), and Science City.
           </motion.p>
         </div>
 

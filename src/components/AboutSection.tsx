@@ -94,11 +94,14 @@ export default function AboutSection() {
           >
             <div>
               <span className="font-cormorant text-base sm:text-xl italic text-[#8B6914] font-semibold tracking-widest uppercase block mb-1">
-                THE FOREST OF SACRED ENERGIES
+                BEST NAVRATRI IN AHMEDABAD 2026
               </span>
               <h2 className="font-playfair text-2xl sm:text-4xl lg:text-5xl font-bold text-[#7A1B0C] leading-tight">
-                An Architectural Vision in <span className="text-maroon-gradient">Nature</span>
+                Traditional Gujarati Garba &amp; <span className="text-maroon-gradient">Architectural Vision</span>
               </h2>
+              <h3 className="font-cormorant text-lg sm:text-xl text-[#8B6914] font-semibold italic mt-1">
+                The Forest of Sacred Energies • Best Mandli Garba in Ahmedabad
+              </h3>
             </div>
 
             <p className="font-poppins text-sm sm:text-base text-[#2A1613] font-normal leading-relaxed">

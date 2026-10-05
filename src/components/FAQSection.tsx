@@ -3,42 +3,12 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { HelpCircle, ChevronDown } from "lucide-react";
+import { HOME_FAQS } from "@/lib/seo";
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  const faqs = [
-    {
-      question: "What are the timings for Rudaah Garba 2026?",
-      answer:
-        "Gates open daily at 7:30 PM. The Garba Raas and live orchestra performances commence at 8:30 PM and continue until midnight across all 9 nights (11th – 19th October 2026).",
-    },
-    {
-      question: "Is traditional Gujarati attire mandatory for entry?",
-      answer:
-        "Yes, traditional Garba attire (Chaniya Choli for women, Kedia or Kurta Pyjama for men) is encouraged to uphold the cultural heritage of the celebration. Security reserves entry rights.",
-    },
-    {
-      question: "How do I receive my physical pass or digital QR ticket?",
-      answer:
-        "Upon online booking via FacePass, an instant digital QR ticket is sent to your account and email. You can present your digital pass or utilize contactless face-based entry directly at the gates.",
-    },
-    {
-      question: "Is parking available at the venue?",
-      answer:
-        "Yes, Rudaah Garba features a dedicated parking lot capable of accommodating over 3,000 vehicles, along with dedicated valet services for VIP pass holders.",
-    },
-    {
-      question: "What security measures are implemented at the ground?",
-      answer:
-        "We enforce 360° security including 24/7 CCTV surveillance, bouncer security personnel, female security staff, medical first-aid stations, and a dedicated lost & found booth.",
-    },
-    {
-      question: "Are food and drinks permitted from outside?",
-      answer:
-        "Outside food and beverages are not allowed inside the ground. However, our venue features a large gourmet food court with certified food stalls and hygienic refreshment zones.",
-    },
-  ];
+  const faqs = HOME_FAQS;
 
   const toggleFAQ = (idx: number) => {
     setOpenIndex(openIndex === idx ? null : idx);

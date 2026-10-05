@@ -41,8 +41,13 @@ export function WebSiteJsonLd() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: SITE_CONFIG.name,
-    alternateName: "Rudaah Garba Ahmedabad",
+    name: "Top 10 Navratri in Ahmedabad 2026 | Best Garba & Mandli Garba",
+    alternateName: [
+      "Rudaah Garba 2026",
+      "Best Navratri in Ahmedabad",
+      "Best Mandli Garba in Ahmedabad",
+      "Ahmedabad Navratri 2026",
+    ],
     url: SITE_CONFIG.url,
     description: SITE_CONFIG.defaultDescription,
     inLanguage: SITE_CONFIG.locale,
@@ -56,6 +61,15 @@ export function EventJsonLd() {
     "@context": "https://schema.org",
     "@type": "Event",
     name: SITE_CONFIG.event.name,
+    alternateName: [
+      "Top Navratri in Ahmedabad 2026",
+      "Best Navratri in Ahmedabad",
+      "Best Garba in Ahmedabad",
+      "Top Garba in Ahmedabad",
+      "Best Mandli Garba in Ahmedabad",
+      "Mandli Garba Ahmedabad",
+      "Ahmedabad Navratri 2026",
+    ],
     description: SITE_CONFIG.defaultDescription,
     image: [
       `${SITE_CONFIG.url}${SITE_CONFIG.ogImage.url}`,
@@ -88,7 +102,15 @@ export function EventJsonLd() {
       name: SITE_CONFIG.contact.organizers,
       url: SITE_CONFIG.url,
     },
-    url: `${SITE_CONFIG.url}/#venue`,
+    offers: {
+      "@type": "AggregateOffer",
+      name: "Rudaah Garba 2026 Season Passes",
+      url: "https://facepassevents.com/events/rudaah-garba-99847b3c7e77478eb1d294cec8956a29",
+      priceCurrency: "INR",
+      availability: "https://schema.org/InStock",
+      validFrom: "2026-03-01T00:00:00+05:30",
+    },
+    url: `${SITE_CONFIG.url}/#passes`,
     inLanguage: "en-IN",
   };
 

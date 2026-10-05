@@ -34,17 +34,16 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   title: {
-    default: "Rudaah Garba 2026 | Top Navratri & Garba in Ahmedabad",
+    default: SITE_CONFIG.defaultTitle,
     template: "%s | Rudaah Garba 2026",
   },
-  description:
-    "Experience Rudaah Garba 2026 on SG Highway, Ahmedabad. Join Gujarat's premier Navratri & Garba celebration featuring 10 cultural nights, live music, and folk raas.",
+  description: SITE_CONFIG.defaultDescription,
   keywords: ALL_SEO_KEYWORDS,
   authors: [{ name: SITE_CONFIG.contact.organizers, url: SITE_CONFIG.url }],
   creator: SITE_CONFIG.contact.organizers,
   publisher: SITE_CONFIG.legalName,
   alternates: {
-    canonical: "/",
+    canonical: `${SITE_CONFIG.url}/`,
   },
   robots: {
     index: true,
@@ -61,12 +60,11 @@ export const metadata: Metadata = {
     google: "googledc62c8e26a94a286",
   },
   openGraph: {
-    title: "Rudaah Garba 2026 | Top Navratri & Garba in Ahmedabad",
-    description:
-      "Experience Rudaah Garba 2026 on SG Highway, Ahmedabad. Celebrate Gujarat's grand Navratri with 9 nights (11th – 19th October) of traditional Garba, folk music, and celebration.",
+    title: SITE_CONFIG.defaultTitle,
+    description: SITE_CONFIG.defaultDescription,
     type: "website",
     url: SITE_CONFIG.url,
-    siteName: SITE_CONFIG.name,
+    siteName: "Rudaah Garba - Ahmedabad Navratri 2026",
     locale: SITE_CONFIG.locale,
     images: [
       {
@@ -79,9 +77,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rudaah Garba 2026 | Top Navratri & Garba in Ahmedabad",
-    description:
-      "Experience Rudaah Garba 2026 on SG Highway, Ahmedabad. Join Gujarat's premier Navratri & Garba festival.",
+    title: SITE_CONFIG.defaultTitle,
+    description: SITE_CONFIG.defaultDescription,
     images: [
       {
         url: SITE_CONFIG.ogImage.url,

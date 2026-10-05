@@ -10,7 +10,7 @@ interface BookPassModalProps {
   defaultPass?: string;
 }
 
-export default function BookPassModal({ isOpen, onClose, defaultPass = "VIP Pass" }: BookPassModalProps) {
+export default function BookPassModal({ isOpen, onClose, defaultPass = "Phase 1 Pass" }: BookPassModalProps) {
   const [selectedPass, setSelectedPass] = useState(defaultPass);
   const [quantity, setQuantity] = useState(2);
   const [submitted, setSubmitted] = useState(false);
@@ -19,10 +19,11 @@ export default function BookPassModal({ isOpen, onClose, defaultPass = "VIP Pass
   if (!isOpen) return null;
 
   const passes = [
-    { name: "Early Bird Pass", price: 0 },
+    { name: "Phase 1 Pass", price: 0, status: "live" },
+    { name: "Early Bird Pass (Sold Out)", price: 0, status: "sold_out" },
   ];
 
-  const currentPass = passes[0];
+  const currentPass = passes.find((p) => p.name === selectedPass) || passes[0];
   const totalPrice = currentPass.price * quantity;
 
   const handleSubmit = (e: React.FormEvent) => {
